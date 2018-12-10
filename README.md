@@ -15,9 +15,9 @@ TODO
 
 ```yaml
 host: localhost
-- name: "install systemd"
+- name: "install base"
   include_role:
-    - container-systemd
+    - container-base
 ```
 
 ### Advanced usage
