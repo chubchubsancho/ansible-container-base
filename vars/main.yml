@@ -1,0 +1,4 @@
+---
+container_base_package:
+  - python
+  - bash

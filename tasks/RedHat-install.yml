@@ -1,0 +1,7 @@
+---
+
+- name: "install packages"
+  yum:
+    name: "{{ container_base_package }}"
+    update_cache: true
+    state: present

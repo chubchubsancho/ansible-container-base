@@ -1,0 +1,6 @@
+---
+- name: "install container base packages"
+  include_tasks: "{{ ansible_os_family }}-install.yml"
+  tags:
+    - base
+    - installation
